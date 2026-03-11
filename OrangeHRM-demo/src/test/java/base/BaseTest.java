@@ -10,7 +10,7 @@ public class BaseTest {
 
     @BeforeMethod
     public void setup() {
-//test
+
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/");
@@ -19,6 +19,6 @@ public class BaseTest {
     @AfterMethod
     public void tearDown() {
 
-        driver.quit();
+        //driver.quit();
     }
 }
