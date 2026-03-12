@@ -19,7 +19,7 @@ public class LoginTest extends BaseTest {
         lp.clickLogin();
 
         DashboardPage dp = new DashboardPage(driver);
-//dhivya
+//dhivya-new
         Assert.assertTrue(dp.verifyDashboard());
     }
 }
